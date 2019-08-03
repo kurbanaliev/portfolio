@@ -91,9 +91,9 @@ img {
 }
 
 .about {
-  background: url('../src/img/bg_2.jpg') no-repeat center;
+  background: url('../img/bg_2.jpg') no-repeat center;
   background-size: cover;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 
 .about__wrap {
@@ -118,9 +118,9 @@ img {
 }
 
 .summary {
-  background:url('../src/img/bg_3.jpg') no-repeat center;
+  background:url('../img/bg_3.jpg') no-repeat center;
   background-size: cover;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 .summary__list {
   display: flex;
@@ -168,9 +168,9 @@ img {
 }
 
 .skills {
-  background:url('..src/img/bg_2.jpg') no-repeat center;
+  background:url('../img/bg_2.jpg') no-repeat center;
   background-size: cover;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 
 .skills-list {
@@ -204,9 +204,9 @@ img {
 }
 
 .portfolio {
-  background: url('../src/img/bg_3.jpg') no-repeat center;
+  background: url('../img/bg_3.jpg') no-repeat center;
   background-size: cover;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 .portfolio-wrap {
   display: flex;
@@ -220,5 +220,6 @@ img {
   background-color: #fff;
   width: 250px;
   height: 250px;
+  border-radius: 5px;
   transition: transform 0.2s;
 }
