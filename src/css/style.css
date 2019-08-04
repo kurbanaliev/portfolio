@@ -21,7 +21,7 @@ img {
   top: 0;
 }
 .main-navigation {
-  padding: 20px;
+  padding: 10px;
   width: 1160px;
   margin: 0 auto;
 }
@@ -220,6 +220,158 @@ img {
   background-color: #fff;
   width: 250px;
   height: 250px;
-  border-radius: 5px;
   transition: transform 0.2s;
 }
+.menu__top {
+  background: rgba(0,0,0,0.8);
+}
+
+.contacts {
+  background: url('../img/bg_2.jpg') no-repeat center;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+.contacts-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts h3 {
+  width: 350px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.contacts a {
+  width: 350px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-size: 21px;
+}
+.contacts__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  order: 1;
+  padding: 70px;
+  line-height: 2.3rem;
+  background: rgba(255,255,255,0.2);
+  min-height: 416px;
+  box-shadow: -5px 5px 7px rgba(0,0,0,0.2);
+}
+/* form */
+.ui-form h3 {
+  position: relative;
+  z-index: 5;
+  margin: 0 0 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+}
+.form-row {
+  position: relative;
+  margin-bottom: 20px;
+  width: 350px;
+}
+.form-row input {
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  background: none;
+  border-width: 0;
+  border-bottom: 2px solid #e74c3c;
+  transition: all 0.2s ease;
+}
+.form-row label {
+  position: absolute;
+  color: #e74c3c;;
+  font-size: 20px;
+  font-weight: 300;
+  transform: translateY(-35px);
+  transition: all 0.2s ease;
+}
+.form-row input:focus {
+  outline: 0;
+  border-color: #F77A52;
+}
+.form-row input:focus + label, 
+.form-row input:valid + label {
+  transform: translateY(-60px);
+  margin-left: -14px;
+  font-size: 14px;
+  font-weight: 400;
+  outline: 0;
+  border-color: #F77A52;
+  color: #F77A52;
+}
+.ui-form button {
+  outline: none; /* Для синий ободки */
+  background: transparent;
+  width: 100%;
+  padding: 0;
+  line-height: 42px;
+  border: 2px solid #e74c3c;
+  font-size: 20px;
+  cursor: pointer;
+  color: #e74c3c;
+}
+.ui-form button:hover {
+  background-color: #e74c3c;
+  color: #fff;
+  transition: 0.3s;
+}
+/* footer */
+.footer {
+  background: rgba(0,0,0,1);
+}
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.social-media li {
+  padding: 0;
+  margin: 20px;
+}
+.social-media li:first-child {
+  margin-left: 0;
+}
+.social-media a {
+  text-align: center;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.social-media li:first-child a {
+  color: #4267b2;
+}
+.social-media li:nth-child(2) a {
+  color: #4a76a8;
+}
+.social-media li:last-child a {
+  color: #24292e;
+}
+.social-media a:hover {
+  background-color: #e74c3c;
+}
+.social-media a:hover i {
+  color: rgba(0,0,0,1);
+}
+.footer address {
+  color: #fff;
+  font-size: 20px;
+}
+

@@ -20,3 +20,10 @@ function stopRotate(event) {
   const cardItem = this.querySelector('.card-item')
   cardItem.style.transform = 'rotate(0)'
 }
+
+$(document).ready(function(){
+  var navigation = $('#navigation');
+  $(window).scroll(function(){
+    navigation.addClass('menu__top');
+  });
+});
